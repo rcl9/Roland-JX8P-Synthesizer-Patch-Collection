@@ -1,16 +1,16 @@
 # Roland JX8P Synthesizer Patch Collection
 
-This repository contains 15 Roland JX8P synthesizer patch banks, with up to 16 voices per bank, which were collected or created by me between 1985 and 1989.
+This repository contains 15 Roland JX8P synthesizer patch banks, with up to 32 patches per bank, which were collected or created by me between 1985 and 1989.
 
 Please also refer to my [Memory Cartridges for the Roland JX8P](https://github.com/rcl9/Roland-JX8P-Synthesizer-Memory-Cartridges).
 
 Three variations of the patch files are being provided:
 
-- Syx - SysEx - System exclusive binary files which the JX8P will accept through a MIDI connection. SysEx files are provided for each 16-bank RAM/ROM image and also as individual files for each patch. 
+- Syx - SysEx - System exclusive binary files which the JX8P will accept through a MIDI connection. SysEx files are provided for each 32-patch RAM/ROM image and also as individual files for each patch. 
 
 - SQS - Midi Quest patch librarian file format.
 
-- Binary - 1:1 binary image captures (in the Roland MC16C memory cartridge format), 16 patches per file, 2k in size. The .ram file extensions are from patch banks of my "RAM cartridge" collection and the .rom file extensions are from patch banks of my "(EP)ROM cartridge" collection.
+- Binary - 1:1 binary image captures (in the Roland MC16C memory cartridge format), 32 patches per file, 2k in size. The .ram file extensions are from patch banks of my "RAM cartridge" collection and the .rom file extensions are from patch banks of my "(EP)ROM cartridge" collection.
 
 The SysEx files are basically mirror copies of the JX8P's System Exclusive MIDI binary data streams and can be loaded into any generic patch librarian or into a JX8P VST soft-synth. 
 
