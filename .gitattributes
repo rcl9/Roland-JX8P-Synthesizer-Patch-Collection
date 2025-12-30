@@ -3,4 +3,4 @@
 *.ram binary
 *.rom binary
 *.syx binary
-.sqs binary
+*.sqs binary
