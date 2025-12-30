@@ -1,2 +1,6 @@
 # Auto detect text files and perform LF normalization
-* text=auto
+
+*.ram binary
+*.rom binary
+*.syx binary
+.sqs binary
