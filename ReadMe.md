@@ -6,11 +6,11 @@ Please also refer to my [Memory Cartridges for the Roland JX8P](https://github.c
 
 Three variations of the patch files are being provided:
 
-- Syx - SysEx - System exclusive text files which the JX8P will accept through a MIDI connection. SysEx files are provided for each 16-bank RAM/ROM image and also as individual files for each patch. 
+- Syx - SysEx - System exclusive binary files which the JX8P will accept through a MIDI connection. SysEx files are provided for each 16-bank RAM/ROM image and also as individual files for each patch. 
 
-- SQS - Midi Quest patch librarian file format ("Set file")
+- SQS - Midi Quest patch librarian file format.
 
-- Binary - 1:1 binary image captures of the Roland MC16C memory cartridge, 16 patches per file, 2k in size. The .ram file extensions are from patch banks of my "RAM catridge" collection and the .rom file extensions are from patch banks of my "(EP)ROM catridge" collection.
+- Binary - 1:1 binary image captures (in the Roland MC16C memory cartridge format), 16 patches per file, 2k in size. The .ram file extensions are from patch banks of my "RAM cartridge" collection and the .rom file extensions are from patch banks of my "(EP)ROM cartridge" collection.
 
 The SysEx files are basically mirror copies of the JX8P's System Exclusive MIDI binary data streams and can be loaded into any generic patch librarian or into a JX8P VST soft-synth. 
 
@@ -29,115 +29,146 @@ Many of my patches use a special naming convention to specify whether you need t
 
 ## Some Personal Comments About Specific Patches
 
-Lao Chimes
-	- Similar to chimes at start of Paranoimia (Art of Noise)
-	- Sounds good sequenced with any music
+- Lao Chimes
+  
+  - Similar to chimes at start of Paranoimia (Art of Noise)
+  - Sounds good sequenced with any music
 
-Fu/Awesome, Fu/Awesome2
-	- Play a 3 note chord near the top of the keyboard to get a sequenced effect
+- Fu/Awesome, Fu/Awesome2
+  
+  - Play a 3 note chord near the top of the keyboard to get a sequenced effect
 
-B Flt / MC
-	- Play B Flat below Middle C, sounds like one of Images in Vogue's sounds
+- B Flt / MC
+  
+  - Play B Flat below Middle C, sounds like one of Images in Vogue's sounds
 
-Racing
-	- Change decay and sustain of ENV2
-	- Change ENV of VCF
+- Racing
+  
+  - Change decay and sustain of ENV2
+  - Change ENV of VCF
 
-ST Bass
-	- Change ENV2 attack to 0 to get bitey sound
+- ST Bass
+  
+  - Change ENV2 attack to 0 to get bitey sound
 
-Plucky2
-	- DCO-1 and 2 to 16-feet
-	- ENV1 sustain to bring up background
+- Plucky2
+  
+  - DCO-1 and 2 to 16-feet
+  - ENV1 sustain to bring up background
 
-Argeggio1
-	- Change tuning of DCO1 to get to different timbres
+- Argeggio1
+  
+  - Change tuning of DCO1 to get to different timbres
 
-Alfpiano1
-	- Turn on XMOD to get Toy Piano
+- Alfpiano1
+  
+  - Turn on XMOD to get Toy Piano
 
-Touch/Go
-	- Change ENV1 attack
-	- Hit keys quickly
+- Touch/Go
+  
+  - Change ENV1 attack
+  - Hit keys quickly
 
-Effect2
-	- Change LFO rate and waveform
+- Effect2
+  
+  - Change LFO rate and waveform
 
-Cellosec1
-	- Change ENV2 attack and decay for different cellos
-	- Turn off chorus
+- Cellosec1
+  
+  - Change ENV2 attack and decay for different cellos
+  - Turn off chorus
 
-Wavy2
-	- Turn on chorus
-	- Change LFO rate to suit playing speed
+- Wavy2
+  
+  - Turn on chorus
+  - Change LFO rate to suit playing speed
 
-Armbass3
-	- Has good range over the keyboard!
-	- Turn on chorus to get very bright & good upper end
+- Armbass3
+  
+  - Has good range over the keyboard!
+  - Turn on chorus to get very bright & good upper end
 
-FU/St Bass4
-	- Turn off chorus & try POLY mode high up to get good Violin
+- FU/St Bass4
+  
+  - Turn off chorus & try POLY mode high up to get good Violin
 
-Neatbass2
-	- Change phasing by varying LFO rate
+- Neatbass2
+  
+  - Change phasing by varying LFO rate
 
-FS/Violin1
-	- Try Flashing solo mode in bass end then do fast attack bass sequence
-	- Throw in a bit of portamento to slide notes together
-	- Turn off VCF LFO and route Vibrato Aftertouch to do Violin Vibrato
+- FS/Violin1
+  
+  - Try Flashing solo mode in bass end then do fast attack bass sequence
+  - Throw in a bit of portamento to slide notes together
+  - Turn off VCF LFO and route Vibrato Aftertouch to do Violin Vibrato
 
-Ultra1
-	- Good for deriving other sounds
-	- Try changing RES, ENV-2
-	- Change timing speed by DCO-2 fine tune
-	- Change timbre content with DCO-1 tune
+- Ultra1
+  
+  - Good for deriving other sounds
+  - Try changing RES, ENV-2
+  - Change timing speed by DCO-2 fine tune
+  - Change timbre content with DCO-1 tune
 
-FU/Double
-	- Change ENV-2 attack to around 5 for 2 note attack
+- FU/Double
+  
+  - Change ENV-2 attack to around 5 for 2 note attack
 
-Popbass
-	- Try in Unison mode with Fine tune all the way clockwise
+- Popbass
+  
+  - Try in Unison mode with Fine tune all the way clockwise
 
-Simmons
-	- Put on Flashing Solo mode, then use thumb to tap out this solo: 'h h h H', and hit harder on the last beat
+- Simmons
+  
+  - Put on Flashing Solo mode, then use thumb to tap out this solo: 'h h h H', and hit harder on the last beat
 
-FU/Sample1
-	- Play staccato like
+- FU/Sample1
+  
+  - Play staccato like
 
-Distortion
-	- For melody of Axel F with Attack 2 = 0
-	- For chords of Van Halen JUMP
+- Distortion
+  
+  - For melody of Axel F with Attack 2 = 0
+  - For chords of Van Halen JUMP
 
-FU/Bass15
-	- Try VCA dynamics = VCF Dynamics = 1, filter velocity sensitive
+- FU/Bass15
+  
+  - Try VCA dynamics = VCF Dynamics = 1, filter velocity sensitive
 
-FU/Horror
-	- Press B in second octave above middle C
+- FU/Horror
+  
+  - Press B in second octave above middle C
 
-FU/Bass4
-	- To raise pitch one octave use range 8' on DCO-1
+- FU/Bass4
+  
+  - To raise pitch one octave use range 8' on DCO-1
 
 ## Effect Notes
 
-FU/Alias2
-	- Hit 3 keys near top of keyboard and tune filter to get real metallic biting sound
+- FU/Alias2
+  
+  - Hit 3 keys near top of keyboard and tune filter to get real metallic biting sound
 
-Choir2
-	- Put into brilliant mode and Flashing Unison
-	- Turn Aftertouch all the way up, pressure will now affect the voices
-	- Press bass keys heavily to get backward sound
+- Choir2
+  
+  - Put into brilliant mode and Flashing Unison
+  - Turn Aftertouch all the way up, pressure will now affect the voices
+  - Press bass keys heavily to get backward sound
 
-Piano(x)
-	- Turn on Chorus + Flashing Unison to make them sound better
+- Piano(x)
+  
+  - Turn on Chorus + Flashing Unison to make them sound better
 
-Organ1
-	- Try this preset in Flashing Unison to get the opening StarTrek theme sound
+- Organ1
+  
+  - Try this preset in Flashing Unison to get the opening StarTrek theme sound
 
-U/Pierce2
-	- If Flashing Unison (FU) + brilliance on, press F# below middle C
+- U/Pierce2
+  
+  - If Flashing Unison (FU) + brilliance on, press F# below middle C
 
-U/Richlow1
-	- If Flashing Unison (FU) mode can make good beat near bottom of the keyboard
+- U/Richlow1
+  
+  - If Flashing Unison (FU) mode can make good beat near bottom of the keyboard
 
 # Good Presets with Dynamics Off
 
