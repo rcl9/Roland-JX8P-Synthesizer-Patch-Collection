@@ -2,7 +2,7 @@
 
 This repository contains 15 Roland JX8P synthesizer patch banks, with up to 16 voices per bank, which were collected or created by me between 1985 and 1989.
 
-Please also refer to my [Memory Cartridges for the Roland JX8P](https://ww.github.com/rcl9/Roland-JX8P-Synthesizer-Memory-Cartridges).
+Please also refer to my [Memory Cartridges for the Roland JX8P](https://github.com/rcl9/Roland-JX8P-Synthesizer-Memory-Cartridges).
 
 Three variations of the patch files are being provided:
 
